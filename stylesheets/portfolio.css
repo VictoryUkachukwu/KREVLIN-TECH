@@ -1,0 +1,78 @@
+.another {
+          margin-bottom: 10%;
+          background: url('../assets/images/auth-bg.png'), url('../assets/images/pattern.png');
+}
+
+.caseStudy {
+          margin-bottom: 45%;
+
+}
+
+.caseStudy button {
+          margin-left: 20px;
+          border: 2px solid white;
+          padding: 10px;
+          background: white;
+          font-size: 16px;
+}
+
+.caseStudy button#fir {
+          margin-left: 8%;
+}
+
+.caseStudy button:hover {
+          color: purple;
+}
+
+.caseStudy button:focus {
+          border: 2px solid white;
+          border-bottom: 2px solid purple;
+}
+
+.image-gallery {
+          margin: 10px;
+          border: 2px solid #ccc;
+          float: left;
+          width: 23%;
+}
+
+.image-gallery::after {
+          display: table;
+          content: "";
+          clear: both;
+}
+
+.image-gallery:hover {
+          box-shadow: 12px 12px 8px lightgray, -9px -2px 8px lightgray;
+}
+
+.image-gallery img {
+          width: 100%;
+          height: auto;
+}
+
+.image-content {
+          text-align: center;
+          padding: 15px;
+}
+
+.viewMore2 {
+          margin-bottom: 50px;
+          margin-left: 40%;
+          font-size: 20px;
+          padding: 10px;
+          background: purple;
+          color: white;
+          text-align: center;
+          border: 2px solid purple;
+          border-radius: 10px;
+}
+
+.viewMore2:hover {
+          color: orange;
+}
+
+article h3 {
+          cursor: pointer;
+          margin-bottom: 10%;
+}

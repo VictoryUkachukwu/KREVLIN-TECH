@@ -1,0 +1,515 @@
+* {
+          box-sizing: border-box;
+}
+
+body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          /* background: purple; */
+}
+
+div.container {
+          position: sticky;
+          /* top: 10%; */
+          width: 100%;
+          background: white;
+          box-shadow: 2px 8px 28px #d3d3d356;
+          /* margin-top: 10%;  */
+
+}
+
+ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 10px;
+          overflow: hidden;
+          color: rgba(0, 0, 0, 0.877);
+          display: block;
+}
+
+
+ li {
+          display: inline-block;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: right;
+          color: rgba(0, 0, 0, 0.877);
+}
+
+li.next {
+          float: right;
+}
+
+li.next::after {
+          display: table;
+          content: "";
+          clear: both;
+}
+
+li.next a {
+          color: rgba(0, 0, 0, 0.877);
+          text-decoration: none;
+          padding: 20px;
+          font-weight: bold;
+}
+
+li.next a:hover {
+          color: purple;
+}
+
+li.company {
+          float: left;
+          margin-top: 1%;
+          margin-left: -23vw;
+}
+
+li.company::after {
+          clear: both;
+          display: table;
+          content: "";
+}
+
+li.company span.compName {
+          margin-top: 2%;
+          margin-left: 1%;
+          color: purple;
+}
+
+.headPart {
+          margin-top: 5%;
+          width: 100%;
+          padding: 12px;
+          background: white;
+}
+
+.headPart h1 {
+          font-size: 50px;
+          font-weight: 400;
+          color: purple;
+}
+
+.headPart p {
+          line-height: 28px;
+          width: 50%;
+          padding: 0px 14px;
+          text-align: justify;
+}
+
+.headPart p#getStarted {
+          border: 2px solid purple;
+          border-radius: 12px;
+          width: 10%;
+          padding: 10px;
+          color: purple;
+          text-align: center;
+          font-weight: bold;
+          margin-left: 310px;
+}
+
+.headPart p#getStarted:hover {
+          background: purple;
+          color: white;
+          text-decoration: none;
+}
+
+.headPart a {
+          text-decoration: none;
+          /* color: blue; */
+}
+
+.secondDiv {
+          margin-top: 15%;
+          padding: 12px;
+          color: white;
+          background: #6b096b;
+}
+
+.secondDiv h1 {
+          text-align: center;
+          font-weight: lighter;
+          word-spacing: 5px;
+          font-size: 40px;
+}
+
+.secondDiv p#intro {
+          text-align: center;
+          width: 50%;
+          margin: auto;
+          line-height: 28px;
+          padding: 0px 14px;
+}
+
+.secondDiv hr {
+          width: 10%;
+}
+
+nav {
+          display: inline-block;
+          width: 24%;
+          background: whitesmoke;
+          padding: 20px;
+          text-align: justify;
+          margin-right: 9px;
+          border: 2px solid purple;
+          border-radius: 15px;
+          color: rgba(0, 0, 0, 0.877);
+          margin-bottom: 40px;
+          margin-top: 50px;
+}
+
+nav h3 {
+          text-align: center;
+          color: purple;
+}
+
+nav h3 a{
+          color: purple;
+          text-decoration: none;
+}
+
+nav p a{
+          color: purple;
+}
+
+nav:hover {
+          box-shadow: 12px 12px 2px #300d30;
+          outline: 1px dashed white;
+}
+
+.icons {
+          font-size: 50px;
+          color: orange;
+          text-align: center;
+}
+
+.another h1 {
+          color: purple;
+          text-align: center;
+          font-weight: lighter;
+          word-spacing: 5px;
+          font-size: 40px;
+}
+
+.another p {
+          text-align: justify;
+          width: 80%;
+          margin: auto;
+          line-height: 28px;
+          padding: 0px 14px;
+          /* margin-bottom: 40px; */
+}
+
+.review {
+          background: purple; 
+          color: white;
+          padding: 20px;
+}
+
+.review h1, .faqs h1 {
+          text-align: center;
+          font-weight: lighter;
+          word-spacing: 5px;
+          font-size: 40px;
+          color: white;
+}
+
+.review hr, .faqs hr {
+          width: 10%;
+          margin-bottom: 50px;
+}
+
+.test-image {
+          float: left;
+          width: 25%;
+          padding: 30px;
+          text-align: justify;
+          border: none;
+          font-style: oblique;
+          /* font-weight: lighter; */
+}
+
+.review::after {
+          content: "";
+          display: table;
+          clear: both;
+}
+
+.test-image img {
+          width: 150px;
+          height: 150px;
+          border: none;
+          border-radius: 320px;
+          background-color: seashell;
+          margin-left: 55px;
+}
+
+.test-name {
+          text-align: right;
+          font-weight: lighter;
+          font-style: normal;
+          font-variant: small-caps;
+          /* color: orange; */
+          margin-bottom: 65%;
+}
+
+.iconic {
+          color: orange;
+          font-size: 12px;
+}
+
+.caseStudy p#nextP {
+          color: orangered;
+          text-align: center;
+          font-weight: 400;
+          word-spacing: 5px;
+          font-size: 30px;
+}
+
+.caseStudy h1 {
+          color: purple;
+          text-align: center;
+          font-weight: lighter;
+          word-spacing: 5px;
+          font-size: 40px;
+          margin-top: -20px;
+}
+
+.caseStudy hr {
+          width: 10%;
+          margin-bottom: 50px;
+          background: purple;
+          padding: 0.5px;
+}
+
+.upper {
+          color: purple;
+          text-align: center;
+          font-weight: lighter;
+          word-spacing: 5px;
+          font-size: 40px;
+          margin-top: 20px;
+}
+
+.containER {
+          padding-bottom: 15%;
+}
+
+.cards {
+          float: left;
+          width: 25%;
+          box-shadow:  12px 14px 8px rgb(70, 67, 67), 10px 14px 8px slategray;
+          text-align: center;
+          margin-left: 5%;
+          background: orange;
+          margin-bottom: 10%;
+}
+
+.cards::after {
+          content: "";
+          display: table;
+          clear: both;
+}
+
+.overlay {
+          opacity: 0;
+          background: purple;
+          transition: .5s ease;
+}
+
+.cards:hover .overlay {
+          opacity: 1;
+}
+
+.cards:hover .display {
+          display: block;
+}
+
+.cards:hover .top {
+          opacity: 0;
+}
+
+.cards:hover .bottom {
+          opacity: 0;
+}
+
+.cards:hover .para {
+          opacity: 0;
+}
+
+.display {
+          padding: 26px 12px -2px 12px;
+          text-indent: 15px;
+          color: white;
+          font-size: 1.2vw; /*vw makes the font size to shrink on reduced viewport  avoid overflow*/
+          text-shadow: 8px 10px 8px black;
+          margin-top: -100%;
+}
+
+.top {
+          background: purple;
+}
+
+.bottom {
+          padding: 0.1em;
+          background: purple;
+          color: white;
+          letter-spacing: 4px;
+          font-variant: small-caps;
+}
+
+.viewMore {
+          margin-top: 510px;
+          margin-bottom: 50px;
+          margin-left: -52%;
+          font-size: 20px;
+          padding: 10px;
+          background: purple;
+          color: white;
+          text-align: center;
+          border: 2px solid purple;
+          border-radius: 10px;
+}
+
+.viewMore:hover {
+          color: orange;
+}
+
+.others {
+          background: purple;
+}
+
+.merge {
+          display: inline-block;
+          width: 47%;
+          padding: 20px;
+          margin-left: 30px;
+          margin-bottom: 40px;
+}
+
+.location {
+          padding-left: 50px;
+          color: white;
+}
+
+.form {
+          background: white;
+          padding: 30px;
+          border: 2px solid purple;
+          border-radius: 15px;
+          color: purple;
+          margin-top: 50px;
+          font-size: 20px;
+          text-align: center;
+}
+
+.form input, textarea {
+          font-size: 16px;
+          background: #f0f0f0;
+}
+
+.form input:focus, textarea:focus {
+          outline: 1.8px dashed purple;
+          border: none;
+}
+
+.form input[type="text"], [type="email"] {
+          padding: 17px;
+          width: 45%;
+          margin-right: 20px;
+          border-radius: 8px;
+          border: none;
+}
+
+.form input[type="tel"] {
+          padding: 17px;
+          width: 98%;
+          border-radius: 8px;
+          border: none;
+}
+
+.form textarea {
+          padding: 20px;
+          width: 98%;
+          height: 180px;
+          border-radius: 8px;
+          border: none;
+          resize: none;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form input[type="submit"] {
+          padding: 17px;
+          width: 30%;
+          border-radius: 8px;
+          border: none;
+          background: purple;
+          color: white;
+          margin-top: 50px;
+          margin-left: -70%;
+}
+
+.form input[type="submit"]:hover {
+          cursor: pointer;
+          /* color: orange; */
+}
+
+.footer {
+          background: #4b004b;
+          /* color: white; */
+          color: lightgray;
+          padding: 20px;
+}
+
+.footer p {
+          display: inline-block;
+          margin-left: 20px;
+}
+
+.footer p span {
+          font-size: 80px;
+          margin-right: 12px;
+}
+
+.footer input {
+          border-radius: 50px;
+          font-size: 16px;
+          background: whitesmoke;
+          padding: 20px;
+          width: 36%;
+}
+
+.alto {
+          display: inline-block;
+          text-align: left;
+          color: white;
+}
+
+.alto h2 {
+          margin-left: 10px;
+}
+
+.footLinks a, .footHead a {
+          /* color: white; */
+          color: lightgray;
+          text-decoration: none;
+}
+
+.footLinks a:hover, .footHead a:hover {
+          color: orange;
+}
+
+.inTouch p {
+          color: lightgray;
+
+}
+
+.socialMedia i {
+          font-size: 30px;
+          padding: 10px;
+          color: orange;
+}
+
+.space {
+          margin-bottom: 50px;
+}

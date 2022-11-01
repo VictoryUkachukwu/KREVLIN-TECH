@@ -1,0 +1,187 @@
+.header {
+          display: none;
+          background: black;
+          padding: 35px;
+          text-align: center;
+}
+
+.hamburger {
+          display: none;
+          position: absolute;
+          top: 2%;
+          left: 75%;
+          padding: 20px 60px 20px 60px;
+          text-align: left;
+          color: red;
+          cursor: pointer;
+}
+
+.drop-text {
+          position: absolute;
+          display: none;
+          top: 70%;
+          left: 4%;
+          display: none;
+          padding: 20px;
+          background: rgba(88, 75, 71, 0.13);
+          text-align: left;
+          box-shadow: 12px 12px 8px black, 12px 13px 8px black;
+}
+
+.drop-text li {
+          display: block;
+          padding: 10px;
+          height: 50px;
+}
+
+.drop-text li a:link, a:visited {
+          width: 100%;
+          text-decoration: none;
+          padding: 10px;
+          color: white;
+          font-size: 13px;
+}
+
+.drop-text li a:hover {
+          color: blue;
+}
+
+.hamburger:hover .drop-text {
+          display: block;
+}
+
+.intro {
+          padding: 1%;
+          background: purple;
+          color: white;
+          width: 100%;
+}
+
+.intro h1 {
+          margin-top: 40px;
+          font-size: 25px;
+          color: orange;
+}
+
+.mySecBg {
+          background: url('../assets/images/ourteam.jpeg') no-repeat;
+          background-attachment: fixed;
+          background-position: bottom right;
+          padding: 5%;
+          margin-left: 10px;
+}
+
+.mySecBg p {
+          width: 50%;
+          text-align: justify;
+}
+
+.desc {
+          padding: 6%;
+          background: purple;
+          color: whitesmoke;
+}
+
+.desc h1 {
+          margin-left: 33%;
+}
+
+.ourTeam {
+          background: white;
+          display: inline-block;
+          width: 48%;
+          padding: 30px;
+          margin-left: 22px;
+}
+
+.ourTeAm h1 {
+          margin-top: 80px;
+          text-align: center;
+          color: purple;
+          padding: 10px;
+}
+
+.ourTeam h2 {
+          margin-left: 50px;
+          color: purple;
+}
+
+.ourTeam p {
+          text-align: justify;
+          padding: 10px;
+
+}
+
+.iconDes {
+          display: inline-block;
+          width: 30%;
+          padding: 18px;
+          text-align: center;
+          box-shadow: 12px 12px 38px black;
+          margin-right: 25px;
+          margin-bottom: 55px;
+          margin-top: 40px;
+
+}
+
+.iconDes i {
+          border: none;
+          border-radius: 50px;
+          padding: 25px;
+          color: purple;
+          background: orange;
+          font-size: 25px;
+          margin-left: 2%;
+          box-shadow: 12px 12px 38px black;
+}
+
+
+@media screen and (max-width: 900px) {
+
+.hamburger {
+                    display: block;
+}
+
+div.container ul li a {
+          display: none;
+}
+
+          .vidBg {
+                    display: none;
+          }
+
+          .text {
+                    display: none;
+          }
+ 
+div.container {
+          display: none;
+} 
+
+ ul        {
+          display: none;                  
+          }
+
+          li        {
+                    display: inline-block;
+                    display: flex;
+                    padding: 5px;
+          }
+
+          li.next {
+                    float: none;
+          }
+
+          li.company {
+          display: none;
+          }
+
+          li.company img {
+                    display: none;
+          }
+
+          li.company span.compName {
+                    display: none;
+          }
+          } 
+
